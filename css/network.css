@@ -14,7 +14,6 @@
   font-weight: 500;
   font-size: 35px;
   line-height: 50px;
-  /* or 143% */
   max-width: 483.41px;
   text-align: center;
   color: #0b132a;
@@ -22,7 +21,6 @@
 
 .network_heading_subtext {
   line-height: 30px;
-  /* or 187% */
   margin-top: 19.73px;
   max-width: 555px;
   text-align: center;

@@ -15,7 +15,6 @@
   font-weight: 500;
   font-size: 35px;
   line-height: 50px;
-  /* or 143% */
   max-width: 447.81px;
   text-align: center;
   color: #0b132a;
@@ -23,7 +22,6 @@
 
 .reviews_heading_subtext {
   line-height: 30px;
-  /* or 187% */
   margin-top: 20px;
   max-width: 555px;
   text-align: center;
@@ -33,7 +31,6 @@
 .review_cards {
   width: 100%;
   margin-top: 85.75px;
-  /* padding: 0px 59px; */
   box-sizing: border-box;
   display: flex;
   justify-content: space-around;
@@ -75,11 +72,9 @@
   height: auto;
   display: flex;
   justify-content: flex-start;
-  /* align-items: center; */
   overflow-x: auto;
   overflow-y: hidden;
   flex-wrap: nowrap;
-  /* box-sizing: border-box; */
   padding: 15px 0px;
 }
 
@@ -110,11 +105,9 @@
   width: 100%;
   font-size: 14px;
   line-height: 30px;
-  /* or 214% */
   display: flex;
   align-items: flex-start;
   color: #0b132a;
-  /* overflow-y: scroll; */
 }
 
 .single_review .upper {
