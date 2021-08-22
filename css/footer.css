@@ -1,0 +1,191 @@
+.footer {
+  width: 100%;
+  padding-top: 200px;
+  background: #f8f8f8;
+  height: 563.12px;
+  box-sizing: border-box;
+}
+
+.footer_main {
+  width: 79%;
+  margin: 0% auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+#logo {
+  width: 149px;
+  height: 36.23px;
+  margin-left: -20px;
+}
+
+.about > span {
+  display: block;
+  width: 340px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  /* font-weight: 500; */
+  font-size: 16px;
+  line-height: 30px;
+  /* or 187% */
+  color: #4f5665;
+}
+
+.social_media_icons > span {
+  height: 33.6px;
+  width: 33.6px;
+  margin-left: -20px;
+}
+
+#copyright {
+  width: 108px;
+  height: 30px;
+  padding-left: 10px;
+}
+
+.product {
+  margin-left: auto;
+  padding-right: 120px;
+}
+
+.engage {
+  padding-right: 110px;
+}
+
+.product,
+.engage,
+.earn_money {
+  display: flex;
+  flex-direction: column;
+}
+
+.product > span,
+.engage > span,
+.earn_money > span {
+  display: block;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  /* identical to box height, or 167% */
+  color: #0b132a;
+}
+
+.product .details,
+.engage .details,
+.earn_money .details {
+  margin-top: 20px;
+  list-style: none;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+  color: #4f5665;
+}
+
+.product .details > li,
+.engage .details > li,
+.earn_money .details > li {
+  margin: 20px 0px;
+}
+
+.product .details > li:first-of-type,
+.engage .details > li:first-of-type,
+.earn_money .details > li:first-of-type {
+  margin-top: 10px;
+}
+
+@media (max-width: 1024px) {
+  .footer_main {
+    width: 90%;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .about > span {
+    width: 200px;
+  }
+
+  .product {
+    margin-left: auto;
+    padding-right: 50px;
+  }
+
+  .engage {
+    padding: 0px;
+  }
+
+  .earn_money {
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 640px) {
+  .footer {
+    width: 100%;
+    padding-top: 250px;
+    background: #f8f8f8;
+    height: auto;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+  }
+
+  .footer_main {
+    width: 90%;
+    margin: 0% auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .about {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 50px;
+  }
+
+  #logo {
+    width: 149px;
+    height: 36.23px;
+    margin-left: -20px;
+  }
+
+  .about > span {
+    display: block;
+    width: 95%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* font-weight: 500; */
+    font-size: 16px;
+    line-height: 30px;
+    /* or 187% */
+    color: #4f5665;
+  }
+
+  .product,
+  .engage,
+  .earn_money {
+    margin: 0;
+    padding: 0;
+    width: 30%;
+  }
+
+  .earn_money {
+    margin-left: auto;
+  }
+}
