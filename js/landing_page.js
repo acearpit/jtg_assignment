@@ -21,19 +21,19 @@ function makeThisPlanActive(plan_id) {
 const reviewOrder = [0, 1, 2];
 const reviewData = [
   {
-    image: "../images/robert.svg",
+    image: "./images/robert.svg",
     name: "Viezh Robert",
     location: "Warsaw, Poland",
     content: `“Wow... I am very happy to use this MaxCX service, it turned out to be more than my expectations and so far there have been no problems. MaxCX always the best.”`,
   },
   {
-    image: "../images/christy.svg",
+    image: "./images/christy.svg",
     name: "Yessica Christy",
     location: "Shanxi, China",
     content: `“I like it because I’ve my userbase around the globe and MaxCX just makes it a lot easier for me removing all the inter-continent barriers.”`,
   },
   {
-    image: "../images/jou.svg",
+    image: "./images/jou.svg",
     name: "Kim Young Jou",
     location: "Seoul, South Korea",
     content: `“This is very unusual for my business that currently requires a partner that keeps my data at the highest possibe security.”`,
@@ -43,11 +43,6 @@ const reviewData = [
 const totalReviews = reviewOrder.length;
 
 function cycleThroughReviews(value) {
-  // pop -> removes from end
-  // shift -> removes from start
-  // push -> adds at end
-  // unshift -> adds at front
-
   if (value === 1) {
     var toShift = reviewOrder.shift();
     reviewOrder.push(toShift);
