@@ -1,0 +1,3 @@
+I have also deplyed this static webpage on github. Below is the corresponding link.
+
+https://acearpit.github.io/jtg_assignment/
